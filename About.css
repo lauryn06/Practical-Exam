@@ -1,0 +1,54 @@
+h1{
+    padding-top:40px;
+    
+}
+section{
+    padding-left: 30px;
+}
+.middle{
+    padding-top: 20px;
+    display: flex;
+    gap: 3rem;
+}
+.first p,.second p{
+    padding-top: 20px;
+    border-bottom: 2px  solid var(--primary_color);
+    border-radius: 2px;
+    
+}
+button{
+    gap: 10px;
+   padding-left: 30px;
+    height: 35px;
+    border-radius: 5px;
+    color: white;
+    background-color: var(--primary_color);
+}
+footer{
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+   
+}
+ .HTML, .CSS, .C{
+    width: 500px;
+ border-bottom: 10px solid var(--dark);
+ border-radius: 7px; 
+ 
+ } 
+.html1{
+    width: 350px;
+    border-bottom: 10px solid var(--primary_color);
+    border-radius: 7px;
+}
+.css1{
+    width: 300px;
+    border-bottom: 10px solid var(--primary_color);
+    border-radius: 7px;
+}
+.c1{
+    width: 450px;
+    border-bottom: 10px solid var(--primary_color);
+    border-radius: 7px;
+}
+
