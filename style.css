@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.top > p{
+    background-color: black;
+    color: white;
+    margin: 20px;
+    width: 150px;
+    padding-left: 10px;
+    height: 25px;
+    border-radius: 15px;
+}
+.second{
+    background-color: rgba(128, 128, 128, 0.295);
+    margin: 20px;
+    width: 100px;
+    padding-left: 10px;
+    height: 30px;
+}
+.second > i{
+    margin-top: 3px;
+    padding-left: 10px;
+    padding-top: 5px;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+}
+.second > i:nth-child(1){
+    color: skyblue;
+}
+.second > i:nth-child(2){
+    color: blue;
+}
+.second > i:nth-child(3){
+    color: red;
+}
+.end > button{
+    background-color: rgba(128, 0, 128, 0.527);
+    width: 150px;
+    height: 30px;
+    border: 1px;
+    margin-left: 10px;
+    border-radius: 15px;
+    box-shadow: 3px 2px 10px white;
+    color: white;
+}
+.main{
+    width: 90vw;
+    height: 50vh;
+    display: flex;
+    margin-top: 30px;
+    border: 2px solid black;
+}
+h1{
+    padding-top: 20px;
+    padding-left: 45px;
+    font-weight: 700;
+}
+p{
+    padding-top: 10px;
+    padding-left: 30px;
+} 
+.ad{
+    padding-top: 20px;
+    font-weight: 700;
+    padding-left: 50px;
+}
+.right{
+    display: flex;
+    width: 50vw;
+    flex-direction: column;
+}
+.left{
+    width: 40vw;
+}
+label
+{
+    padding-top: 20px;
+}
+input{
+    width: 40vw;
+    height: 30px;
+}
+textarea{
+    width: 40vw;
+    height: 60px;
+}
+.right > button{
+margin-top: 20px;
+background-color: blue;
+color: white;
+width: 20vw;
+height: 30px;
+border: 1px;
+}
+.databox{
+    margin: 30px;
+    border-radius: 10px;
+    width: 20vw;
+    height: 35vh;
+    background-color: white;
+    box-shadow: 1px 1px 3px;
+}
+.databox > i{
+    font-size: x-large;
+    padding-top: 30px;
+    padding-left: 120px;
+    color: blue;
+ 
+    /* border: 2px dotted blue ; */
+    
+}
+.databox > h2{
+ text-align: center;
+}
+ a{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+th{
+    background-color: #c223bc;
+    color: white;
+}
+tr:nth-child(2n){
+    background-color: #f1f1fd;
+}
+tr:nth-child(2n+1){
+    background-color: #ffff;
+}
+table{
+    border: 1px #979696;
+    margin: 20px;
+    border-collapse: collapse;
+    
+}
+td{
+    padding: 10px;
+}
+.out{
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.322);
+    margin: 10px;
+    
+    
+}
+@media screen ( max-width:600) and (min-width:200){
+    .out{
+        width: 100px;
+        height:20px;
+        margin:30px;
+            display: flex;
+            flex-direction:column;
+            
+        
+    }
+
+}
+.boxes{
+    width: 100px;
+    margin: 50px;
+    background-color: blue;
+    height: 50px;
+    border: 1px;
+    animation-name: moving;
+    animation-duration: 5s;
+    
+}
+@keyframes moving{
+    animation:moving 5s linear 0 infinity right fill-mode;
+}
