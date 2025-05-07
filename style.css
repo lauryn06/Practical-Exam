@@ -38,6 +38,8 @@ a{
     font-size: medium;
     padding-left: 20px;
    color: var(--white);
+    padding-top: 20px;
+
 }
 .material-symbols-outlined {
   font-variation-settings:

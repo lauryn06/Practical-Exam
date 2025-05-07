@@ -31,24 +31,25 @@ footer{
    
 }
  .HTML, .CSS, .C{
-    width: 500px;
- border-bottom: 10px solid var(--dark);
- border-radius: 7px; 
+    width: 350px;
+ border-bottom: 6px solid var(--primary_color);
+ border-radius: 10px; 
  
  } 
 .html1{
-    width: 350px;
-    border-bottom: 10px solid var(--primary_color);
-    border-radius: 7px;
+    width: 500px;
+    border: 10px solid var(--dark);
+    border-radius: 10px;
 }
 .css1{
-    width: 300px;
-    border-bottom: 10px solid var(--primary_color);
-    border-radius: 7px;
+    width: 500px;
+    border: 10px solid var(--dark);
+    border-radius: 10px;
 }
 .c1{
-    width: 450px;
-    border-bottom: 10px solid var(--primary_color);
-    border-radius: 7px;
+    width: 500px;
+    border: 10px solid var(--dark);
+    border-radius: 10px;
 }
+
 

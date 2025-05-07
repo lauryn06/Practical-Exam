@@ -10,6 +10,7 @@ section{
 img{
     height: 550px;
     width: 400px;
+    border-radius: 10px;
     padding-top: 70px;
 }
 .about{
@@ -22,6 +23,8 @@ button{
     width: 90px;
     border-radius: 3px;
     color: white;
+    font-weight: 900;
+    border: 1px;
     background-color: var(--primary_color);
     box-shadow: 3px 3px 5px var(--dark);
 }
@@ -29,6 +32,8 @@ button{
     position: relative; /* Makes the container a reference for absolute positioning */
     display: inline-block;
 }
+
+
 
 
 
